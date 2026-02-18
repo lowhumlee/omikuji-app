@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ganzan Daishi Omikuji App
 
-# Run and deploy your AI Studio app
+A digital implementation of the traditional 100 fortunes (Hyakusen) attributed to Ganzan Daishi.
 
-This contains everything you need to run your app locally.
+## Deployment Instructions
 
-View your app in AI Studio: https://ai.studio/apps/drive/1tVqX_UtCuPSmVHbEd0yoVAdlheHPRXVZ
+1. **Upload all files** to a new GitHub repository.
+2. **Hidden Folder**: Ensure the `.github` folder is included. If your browser warns you about hidden files, click "Allow" or "Proceed".
+3. **Settings**: 
+   - Go to **Settings** > **Pages**.
+   - Set **Build and deployment** > **Source** to **GitHub Actions**.
+4. **Trigger**: The first deployment happens automatically on your first upload. You can watch progress in the **Actions** tab.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Local Development
+```bash
+npm install
+npm run dev
+```
